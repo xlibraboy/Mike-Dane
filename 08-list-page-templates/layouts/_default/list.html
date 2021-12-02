@@ -6,5 +6,8 @@
 </head>
 <body>
     {{.Content}}
+    {{ range .Pages }}
+        {{.Title}} <br>
+    {{ end }}
 </body>
 </html>
