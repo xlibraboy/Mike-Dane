@@ -11,5 +11,5 @@
 
 {{ $title := .Title }}
 {{ range .Site.Pages }}
-    <li><a href="{{.URL}}">{{ .Title }}</a></li>
+    <li><a href="{{.URL}}" style="{{ if eq .Title $title }} background-color:yellow;{{ end }}">{{ .Title }}</a></li>
 {{ end }}
