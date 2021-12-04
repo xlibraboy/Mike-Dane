@@ -6,4 +6,4 @@ draft: true
 
 This is the A markdown file
 
-{{< myshortcode >}}
+{{< myshortcode color="blue" >}}
