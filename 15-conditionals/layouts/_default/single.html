@@ -8,3 +8,8 @@
 {{ else }}
     False
 {{ end }}
+
+{{ $title := .Title }}
+{{ range .Site.Pages }}
+    <li><a href="{{.URL}}">{{ .Title }}</a></li>
+{{ end }}
