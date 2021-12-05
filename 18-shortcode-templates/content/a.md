@@ -7,5 +7,5 @@ draft: true
 This is the A markdown file
 
 {{< myshortcode >}}
-    This is the text inside the shortcode tags
+    This is the text inside the shortcode
 {{< /myshortcode >}}
