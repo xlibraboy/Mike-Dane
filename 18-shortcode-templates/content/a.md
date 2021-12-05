@@ -6,6 +6,8 @@ draft: true
 
 This is the A markdown file
 
+This is not highlighted text
 {{< myshortcode >}}
     This is the text inside the shortcode
 {{< /myshortcode >}}
+This is not highlighted text
